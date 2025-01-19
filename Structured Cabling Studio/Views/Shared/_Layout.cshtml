@@ -41,11 +41,6 @@
 								@await Html.PartialAsync("_SelectLanguagePartial")
 							</div>
 						</li>
-						<li class="siteNavbarLi nav-item mx-2 mx-sm-3 mx-lg-2">
-							<a class="navLinkText nav-link text-white text-center fw-semibold" asp-controller="@nameof(Project)" asp-action="@nameof(Project.ProjectInformation)">
-								@Localizer["Project information"]
-							</a>
-						</li>
 						<li class="navLinkText nav-item mx-2 mx-sm-3 mx-lg-2">
 							@await Html.PartialAsync("_SignInWithGooglePartial")
 						</li>
@@ -96,7 +91,7 @@
 
 	<footer id="siteFooterText" class="position-absolute border-top footer text-nowrap text-muted w-100">
 		<div class="container">
-			Pavel Batsemakin (<a href="https://github.com/Rhoxolan">Rhoxolan</a>) &#8211; 2023
+			<a href="https://www.linkedin.com/company/the-structured-cabling-studio-project">The Structured Cabling Studio Project</a> &#8211; @System.DateTime.Now.Year
 		</div>
 	</footer>
 
