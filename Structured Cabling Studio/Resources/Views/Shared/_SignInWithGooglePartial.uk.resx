@@ -123,6 +123,9 @@
   <data name="LogOut" xml:space="preserve">
     <value>Вийти із системи</value>
   </data>
+  <data name="Sign in" xml:space="preserve">
+    <value>Вхід</value>
+  </data>
   <data name="Sign in with Google" xml:space="preserve">
     <value>Війти у систему за допомогою Google</value>
   </data>

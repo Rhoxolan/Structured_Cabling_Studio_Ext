@@ -25,6 +25,10 @@
     max-width: 150px;
 }
 
+.verticalSiteNavbarText {
+    white-space: nowrap !important;
+}
+
 .verticalSiteNavbarLi:hover {
     background-color: #93B4FB;
     transition: background-color 0.3s;

@@ -123,6 +123,9 @@
   <data name="LogOut" xml:space="preserve">
     <value>Log Out</value>
   </data>
+  <data name="Sign in" xml:space="preserve">
+    <value>Sign in</value>
+  </data>
   <data name="Sign in with Google" xml:space="preserve">
     <value>Sign in with Google</value>
   </data>

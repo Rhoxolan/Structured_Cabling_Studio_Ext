@@ -78,23 +78,23 @@ function verticalSiteNavbarUlFSChanger() {
     let navLinks = document.querySelectorAll('.navLinkText');
     if (window.innerWidth > 1399) {
         //navLinks.forEach(n => n.style.fontSize = '15.5px');
-        navLinks.forEach(n => n.style.fontSize = '1rem');
+        navLinks.forEach(n => n.style.fontSize = '1.15rem');
     }
     else if (window.innerWidth > 991) {
         //navLinks.forEach(n => n.style.fontSize = '15px');
-        navLinks.forEach(n => n.style.fontSize = '1rem');
+        navLinks.forEach(n => n.style.fontSize = '1.15rem');
     }
     else if (window.innerWidth > 785) {
         //navLinks.forEach(n => n.style.fontSize = '13.5px');
-        navLinks.forEach(n => n.style.fontSize = '0.9rem');
+        navLinks.forEach(n => n.style.fontSize = '1.15rem');
     }
     else if (window.innerWidth > 575) {
         //navLinks.forEach(n => n.style.fontSize = '12.5px');
-        navLinks.forEach(n => n.style.fontSize = '0.9rem');
+        navLinks.forEach(n => n.style.fontSize = '1.15rem');
     }
     else if (window.innerWidth > 319) {
         //navLinks.forEach(n => n.style.fontSize = '12px');
-        navLinks.forEach(n => n.style.fontSize = '0.85rem');
+        navLinks.forEach(n => n.style.fontSize = '1.05rem');
     }
     else if (window.innerWidth > 0) {
         //navLinks.forEach(n => n.style.fontSize = '8.1px');
