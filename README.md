@@ -1,0 +1,1 @@
+Clone of the [Structured Cabling Studio](https://github.com/Rhoxolan/Structured_Cabling_Studio) repository. Changes to the client-side part.
