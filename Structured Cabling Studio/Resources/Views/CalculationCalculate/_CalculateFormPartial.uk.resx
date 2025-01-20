@@ -220,7 +220,7 @@
     <value>Загальна необхідна кількість кабелю:</value>
   </data>
   <data name="Used connection interfaces" xml:space="preserve">
-    <value>Інтерфейси підключені, які використовуються</value>
+    <value>Інтерфейси підключень, які використовуються</value>
   </data>
   <data name="Will the sections of the cable route run outdoors" xml:space="preserve">
     <value>Чи будуть ділянки кабельної траси проходити поза приміщенням</value>

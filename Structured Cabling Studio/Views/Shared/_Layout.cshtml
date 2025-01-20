@@ -18,7 +18,7 @@
 <body>
 
 	<header>
-		<nav id="siteNav" class="navbar navbar-expand-lg navbar-toggleable-lg navbar-dark border-dark border-opacity-10 border-bottom box-shadow p-0">
+		<nav id="siteNav" class="navbar navbar-expand-lg navbar-toggleable-lg navbar-dark border-dark border-opacity-10 border-bottom box-shadow p-0 py-lg-1">
 
 			<div class="container-fluid">
 
@@ -36,12 +36,12 @@
 
 				<div id="siteNavbarDiv" class="navbar-collapse collapse d-lg-inline-flex me-0 me-sm-1 me-md-2 me-lg-3 pt-2 pt-sm-0">
 					<ul class="align-items-center navbar-nav flex-grow-1 flex-row-reverse">
-						<li class="siteNavbarLi nav-item mx-2 mx-sm-3 mx-lg-2">
+						<li class="siteNavbarLi nav-item me-2">
 							<div class="navLinkText nav-link text-white">
 								@await Html.PartialAsync("_SelectLanguagePartial")
 							</div>
 						</li>
-						<li class="navLinkText nav-item mx-2 mx-sm-3 mx-lg-2">
+						<li class="navLinkText nav-item me-4 me-sm-5 me-lg-4">
 							@await Html.PartialAsync("_SignInWithGooglePartial")
 						</li>
 					</ul>
