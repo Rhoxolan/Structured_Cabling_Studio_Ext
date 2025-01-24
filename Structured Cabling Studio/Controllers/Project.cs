@@ -14,10 +14,11 @@ namespace StructuredCablingStudio.Controllers
 
 		public IActionResult ProjectInformation()
 		{
-			_fileLoggerService.Log("pagesloading.log",
-				$"The loading of the ProjectInformation page was requested from the " +
-				$"{HttpContext.Connection.RemoteIpAddress?.ToString()} ip-address");
-			return View();
+			//_fileLoggerService.Log("pagesloading.log",
+			//	$"The loading of the ProjectInformation page was requested from the " +
+			//	$"{HttpContext.Connection.RemoteIpAddress?.ToString()} ip-address");
+			//return View();
+			return NoContent();
 		}
 	}
 }
